@@ -1,0 +1,21 @@
+/* Demo host page: deliberately plain, to show the widget working on a page it knows nothing about. */
+:root { --ink:#1f2933; --muted:#5f6b7a; --line:#dde3ea; --brand:#2b4c6f; --bg:#f7f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: var(--bg); }
+.demo-ribbon { background: #fff4d6; border-bottom: 1px solid #ecd9a0; padding: 6px 16px; font-size: .85rem; text-align: center; }
+.demo-top { background: var(--brand); color: #fff; padding: 14px 24px; display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
+.demo-top strong { font-size: 1.1rem; }
+.demo-top nav { display: flex; gap: 18px; flex-wrap: wrap; }
+.demo-top a { color: #dbe6f2; text-decoration: none; }
+.demo-top a[aria-current] { color: #fff; font-weight: 700; text-decoration: underline; text-underline-offset: 6px; }
+main { max-width: 860px; margin: 0 auto; padding: 32px 24px 120px; }
+h1 { margin: 0 0 6px; font-size: 1.9rem; line-height: 1.2; }
+.lede { color: var(--muted); margin: 0 0 28px; }
+.card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; margin-bottom: 16px; }
+.card h2 { margin: 0 0 6px; font-size: 1.15rem; }
+.card p { margin: 0 0 10px; }
+.ask { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border: 1px solid var(--brand);
+       border-radius: 999px; color: var(--brand); text-decoration: none; font-size: .9rem; font-weight: 600; }
+.ask:hover { background: var(--brand); color: #fff; }
+.tip { font-size: .9rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: 12px; }
+code { background: #eef1f4; padding: 2px 6px; border-radius: 4px; font-size: .88em; }

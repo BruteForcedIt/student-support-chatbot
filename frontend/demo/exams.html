@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exams and assessment | Demo student portal</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <p class="demo-ribbon">Demo page for testing the Support Buddy side panel. Not a real university page.</p>
+  <header class="demo-top">
+    <strong>Student Portal (demo)</strong>
+    <nav aria-label="Demo pages"><a href="fees.html">Fees and payments</a><a href="exams.html" aria-current="page">Exams and assessment</a></nav>
+  </header>
+  <main>
+    <h1>Exams and assessment</h1>
+    <p class="lede">Exam timetables, missed exams and extenuating circumstances.</p>
+    <section class="card">
+      <h2>Missed an exam?</h2>
+      <p>If illness or an emergency affected your exam, you may be able to submit a claim.</p>
+      <a class="ask" href="#" data-buddy-ask="What happens if I miss an exam?">Ask the Buddy: “What happens if I miss an exam?”</a>
+    </section>
+    <section class="card">
+      <h2>Extenuating circumstances</h2>
+      <p>Claims usually need evidence and must be made within a deadline.</p>
+      <a class="ask" href="#" data-buddy-ask="How do I submit an extenuating circumstances claim?">Ask the Buddy: “How do I submit an extenuating circumstances claim?”</a>
+    </section>
+    <section class="card">
+      <h2>Religious observance</h2>
+      <p>Tell the university early if an exam clashes with a religious observance.</p>
+      <a class="ask" href="#" data-buddy-ask="What can I do if an exam falls on a religious holiday?">Ask the Buddy: “What can I do if an exam falls on a religious holiday?”</a>
+    </section>
+    <p class="tip">This page knows nothing about the chatbot except one line:
+      <code>&lt;script src="../widget.js" data-category="academic" defer&gt;&lt;/script&gt;</code>.
+      Open the panel, ask something, then switch page with the menu above: the conversation stays.</p>
+  </main>
+  <!-- The whole integration: one script tag. data-category opens the Buddy focused on this page's topic. -->
+  <script src="../widget.js" data-category="academic" defer></script>
+</body>
+</html>

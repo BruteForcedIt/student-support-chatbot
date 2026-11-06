@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fees and payments | Demo student portal</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <p class="demo-ribbon">Demo page for testing the Support Buddy side panel. Not a real university page.</p>
+  <header class="demo-top">
+    <strong>Student Portal (demo)</strong>
+    <nav aria-label="Demo pages"><a href="fees.html" aria-current="page">Fees and payments</a><a href="exams.html">Exams and assessment</a></nav>
+  </header>
+  <main>
+    <h1>Fees and payments</h1>
+    <p class="lede">Everything about paying your tuition fees this semester.</p>
+    <section class="card">
+      <h2>Paying your fees</h2>
+      <p>Fees can be paid by several methods. Check the official finance pages for the current options.</p>
+      <a class="ask" href="#" data-buddy-ask="How can I pay my tuition fees?">Ask the Buddy: “How can I pay my tuition fees?”</a>
+    </section>
+    <section class="card">
+      <h2>Instalments</h2>
+      <p>Some students can spread their fees over the semester.</p>
+      <a class="ask" href="#" data-buddy-ask="Can I pay my fees in instalments?">Ask the Buddy: “Can I pay my fees in instalments?”</a>
+    </section>
+    <section class="card">
+      <h2>Financial difficulty</h2>
+      <p>If you're struggling to pay, support may be available.</p>
+      <a class="ask" href="#" data-buddy-ask="Is there a hardship fund for students?">Ask the Buddy: “Is there a hardship fund for students?”</a>
+    </section>
+    <p class="tip">This page knows nothing about the chatbot except one line:
+      <code>&lt;script src="../widget.js" data-category="finance" defer&gt;&lt;/script&gt;</code>.
+      Open the panel, ask something, then switch page with the menu above: the conversation stays.</p>
+  </main>
+  <!-- The whole integration: one script tag. data-category opens the Buddy focused on this page's topic. -->
+  <script src="../widget.js" data-category="finance" defer></script>
+</body>
+</html>

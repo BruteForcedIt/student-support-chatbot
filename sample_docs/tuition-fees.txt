@@ -1,0 +1,6 @@
+SAMPLE - Paying Tuition Fees
+https://example.com/sample/fees
+SAMPLE DOCUMENT (made up for testing - replace with real policies).
+Tuition fees can be paid by online banking, by credit card at the Finance counter, or by bank transfer.
+Fees are due before the start of each semester. Late payments may block course registration.
+Students who face financial difficulty should contact the Finance office to ask about an instalment plan.

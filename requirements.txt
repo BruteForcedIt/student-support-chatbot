@@ -1,0 +1,12 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.30   # 0.0.30+ fixes CVE-2026-40347, CVE-2026-42561, CVE-2026-53538
+chromadb>=1.0
+sentence-transformers>=3.0
+openai>=1.40
+pypdf>=4.0
+python-docx>=1.1
+numpy>=1.26
+# only needed to run the tests:
+pytest>=8.0
+httpx>=0.27

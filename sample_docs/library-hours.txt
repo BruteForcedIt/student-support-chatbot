@@ -1,0 +1,6 @@
+SAMPLE - Library Opening Hours
+https://example.com/sample/library
+SAMPLE DOCUMENT (made up for testing - replace with real policies).
+The library is open from 8am to 10pm on weekdays and from 9am to 5pm on weekends.
+During the exam period the library stays open until midnight on weekdays.
+Printing and photocopying are available on the ground floor and are paid for with your student card balance.
